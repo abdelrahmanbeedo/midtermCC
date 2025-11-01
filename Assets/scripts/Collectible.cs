@@ -11,11 +11,12 @@ public class Collectible : MonoBehaviour
     }
 
     private void OnTriggerEnter(Collider other)
+{
+    if (other.CompareTag("Player"))
     {
-        if (other.CompareTag("Player"))
-        {
-            GameManager.instance.CollectItem(colorName);
-            Destroy(gameObject);
-        }
+        // pass color name + position to GameManager
+        GameManager.instance.CollectItem(colorName, transform.position);
+        Destroy(gameObject);
     }
+}
 }
