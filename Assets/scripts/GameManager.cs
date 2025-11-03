@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     [Header("UI")]
     public TMP_Text scoreText;
     public TMP_Text targetColorText;
-    public GameObject gameOverPanel; // assign panel (inactive by default)
+    public GameObject gameOverPanel; // assign panel (disabled fl awel)
     public TMP_Text finalScoreText; // inside Game Over panel
 
     [Header("Gameplay")]
@@ -17,8 +17,8 @@ public class GameManager : MonoBehaviour
     public Material[] colorMaterials;
 
     [Header("VFX & Floating Text")]
-    public GameObject collectParticlePrefab; // particle prefab (optional)
-    public GameObject floatingTextPrefab; // floating TMP prefab (optional)
+    public GameObject collectParticlePrefab;
+    public GameObject floatingTextPrefab; 
 
     [HideInInspector]
     public bool isGameActive = true;
@@ -33,9 +33,6 @@ public class GameManager : MonoBehaviour
     {
         UpdateScoreUI();
     }
-
-    // Called by Collectible when player picks it up
-    // collectedName = "red"/"blue"/etc, pos = world position of collectible
     public void CollectItem(string collectedName, Vector3 pos)
     {
         if (!isGameActive) return;
@@ -58,16 +55,15 @@ public class GameManager : MonoBehaviour
 
         UpdateScoreUI();
 
-        // spawn particle (if assigned)
         if (collectParticlePrefab != null)
         {
             GameObject p = Instantiate(collectParticlePrefab, pos, Quaternion.identity);
-            // try to tint particle main color if it has ParticleSystem
+            
             var ps = p.GetComponent<ParticleSystem>();
             if (ps != null)
             {
                 var main = ps.main;
-                // find material color from name
+               
                 Color c = GetColorByName(collectedName);
                 main.startColor = c;
             }
@@ -75,7 +71,7 @@ public class GameManager : MonoBehaviour
             Destroy(p, 2f); // auto cleanup
         }
 
-        // spawn floating text (if assigned)
+        // spawn floating tex
         if (floatingTextPrefab != null)
         {
             GameObject ft = Instantiate(floatingTextPrefab, pos + Vector3.up * 0.5f, Quaternion.identity);
@@ -90,7 +86,7 @@ public class GameManager : MonoBehaviour
         if (scoreText != null) scoreText.text = "Score: " + score.ToString();
     }
 
-    // utility: find color in materials by cleaned name (red/blue/green)
+    //find color in materials by cleaned name
     Color GetColorByName(string name)
     {
         string cleaned = name.ToLower().Trim();
@@ -102,7 +98,6 @@ public class GameManager : MonoBehaviour
         return Color.white;
     }
 
-    // Change the target manually (used by TargetColorChanger)
     public void SetTargetByIndex(int index)
     {
         if (index < 0 || index >= colorMaterials.Length) return;
@@ -110,7 +105,7 @@ public class GameManager : MonoBehaviour
         targetColorText.color = colorMaterials[index].color;
     }
 
-    // Call this to end the game
+    // ends el le3ba
 public void EndGame()
 {
     Debug.Log("EndGame() called!");

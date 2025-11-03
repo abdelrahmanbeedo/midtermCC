@@ -13,3 +13,5 @@ public class camerascript : MonoBehaviour
         transform.RotateAround(focus.position, Vector3.up, speed * Time.deltaTime);
     }
 }
+
+//rotating camera for the main menu

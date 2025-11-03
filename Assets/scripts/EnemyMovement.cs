@@ -21,7 +21,7 @@ public class EnemyMovement : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        Debug.Log("💀 Player caught by enemy logic triggered!");
+        Debug.Log("Player caught by enemy logic triggered!");
 
         if (other.CompareTag("Player"))
         {
