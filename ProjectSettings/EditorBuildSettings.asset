@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/COLORCATCH.unity
-    guid: 425804b93a6c80f46a80bde44b0a80e1
+    path: Assets/Scenes/MenuBackground.unity
+    guid: 355720b96bbd9ce47974c71df3b0b576
   - enabled: 1
     path: Assets/Scenes/ColorCatchv2.unity
     guid: 81a885c6c30de1a4fb09f2b366b4c39a
