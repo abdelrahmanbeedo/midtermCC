@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1223249654139402191
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2074199327570386124}
+    m_Modifications:
+    - target: {fileID: 4724171800799958589, guid: acf3c9c9650cb8744b6ef1139716ff82, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.120217115
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724171800799958589, guid: acf3c9c9650cb8744b6ef1139716ff82, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.045110308
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724171800799958589, guid: acf3c9c9650cb8744b6ef1139716ff82, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0085645225
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724171800799958589, guid: acf3c9c9650cb8744b6ef1139716ff82, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.37489158
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724171800799958589, guid: acf3c9c9650cb8744b6ef1139716ff82, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.36258483
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724171800799958589, guid: acf3c9c9650cb8744b6ef1139716ff82, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.6555617
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724171800799958589, guid: acf3c9c9650cb8744b6ef1139716ff82, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.54610205
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724171800799958589, guid: acf3c9c9650cb8744b6ef1139716ff82, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724171800799958589, guid: acf3c9c9650cb8744b6ef1139716ff82, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4724171800799958589, guid: acf3c9c9650cb8744b6ef1139716ff82, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5387555941256858759, guid: acf3c9c9650cb8744b6ef1139716ff82, type: 3}
+      propertyPath: m_Name
+      value: IncaWarrior_Mace
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: acf3c9c9650cb8744b6ef1139716ff82, type: 3}
+--- !u!4 &5870013499324785138 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4724171800799958589, guid: acf3c9c9650cb8744b6ef1139716ff82, type: 3}
+  m_PrefabInstance: {fileID: 1223249654139402191}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8871944867706653901
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 95c8bddbc1cb3da4e9f5e7e31a02fad8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c8bddbc1cb3da4e9f5e7e31a02fad8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c8bddbc1cb3da4e9f5e7e31a02fad8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c8bddbc1cb3da4e9f5e7e31a02fad8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c8bddbc1cb3da4e9f5e7e31a02fad8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c8bddbc1cb3da4e9f5e7e31a02fad8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c8bddbc1cb3da4e9f5e7e31a02fad8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c8bddbc1cb3da4e9f5e7e31a02fad8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c8bddbc1cb3da4e9f5e7e31a02fad8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 95c8bddbc1cb3da4e9f5e7e31a02fad8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 95c8bddbc1cb3da4e9f5e7e31a02fad8, type: 3}
+      propertyPath: m_Name
+      value: IncaWarrior
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -1741077115640573951, guid: 95c8bddbc1cb3da4e9f5e7e31a02fad8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5870013499324785138}
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 95c8bddbc1cb3da4e9f5e7e31a02fad8, type: 3}
+--- !u!4 &2074199327570386124 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -1741077115640573951, guid: 95c8bddbc1cb3da4e9f5e7e31a02fad8, type: 3}
+  m_PrefabInstance: {fileID: 8871944867706653901}
+  m_PrefabAsset: {fileID: 0}
